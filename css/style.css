@@ -479,6 +479,9 @@ textarea {
 
 .project-details__links {
   margin: 0 0; }
+  .project-details-btn{
+    margin: 1rem
+  }
   .project-details__links-btn {
     margin-right: 2rem; }
     @media only screen and (max-width: 37.5em) {
@@ -492,6 +495,12 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .project-details__links-btn:last-child {
           margin: 0; } }
+  .project-btns{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+  }        
 
 .header {
   position: fixed;
